@@ -1,0 +1,46 @@
+.invoice_detales .logo {
+    width: 300px;
+    float: left;
+}
+
+.invoice_detales .bg {
+    background: url("http://localhost:8000/public/hospital/1689242351.png") #fff;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.invoice_detales .company_detales div {
+    padding: 6px 0px;
+}
+
+.invoice_detales .container {
+    box-shadow: 0px 0px 7px 8px #00000014;
+    padding: 42px;
+    position: relative;
+    background: #fff;
+    font-weight: bold
+
+}
+
+.invoice_detales .price strong {
+    font-weight: bolder;
+    color: #1266f1;
+    font-size: 20px;
+}
+
+.invoice_detales .table tr td:first-of-type {
+    width: 100px;
+}
+
+.invoice_detales table .diagnosing {
+    background: bisque;
+}
+
+table td {
+    font-weight: bold
+}
